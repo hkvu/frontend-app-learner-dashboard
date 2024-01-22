@@ -30,10 +30,12 @@ export const AuthenticatedUserDropdown = () => {
         </Dropdown.Toggle>
         <Dropdown.Menu className="dropdown-menu-right">
           {!!dashboard && (
-            <Dropdown.Item as="a" href={dashboard.url} key={dashboard.label}>
-              {dashboard.label} {formatMessage(messages.dashboard)}
-            </Dropdown.Item>
-            <Dropdown.Divider />
+	    <>
+              <Dropdown.Item as="a" href={dashboard.url} key={dashboard.label}>
+                {dashboard.label} {formatMessage(messages.dashboard)}
+              </Dropdown.Item>
+              <Dropdown.Divider />
+	    </>
           )}
           {!dashboard && getConfig().CAREER_LINK_URL && (
             <Dropdown.Item href={`${getConfig().CAREER_LINK_URL}`}>
