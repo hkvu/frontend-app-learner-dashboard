@@ -19,7 +19,6 @@ jest.mock('hooks', () => ({
   },
 }));
 
-jest.mock('./UpgradeButton', () => 'UpgradeButton');
 jest.mock('./SelectSessionButton', () => 'SelectSessionButton');
 jest.mock('./ViewCourseButton', () => 'ViewCourseButton');
 jest.mock('./BeginCourseButton', () => 'BeginCourseButton');
@@ -57,17 +56,10 @@ describe('CourseCardActions', () => {
     });
   });
   describe('output', () => {
-    describe('Exec Ed course', () => {
-      it('does not render upgrade button', () => {
-        mockHooks({ isExecEd2UCourse: true });
-        render();
-        expect(el.instance.findByType(UpgradeButton).length).toEqual(0);
-      });
-    });
     describe('entitlement course', () => {
       it('does not render upgrade button', () => {
         mockHooks({ isEntitlement: true });
-        render();
+	render();
         expect(el.instance.findByType(UpgradeButton).length).toEqual(0);
       });
       it('renders ViewCourseButton if fulfilled', () => {

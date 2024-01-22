@@ -5,7 +5,6 @@ import { ActionRow } from '@edx/paragon';
 
 import { reduxHooks } from 'hooks';
 
-import UpgradeButton from './UpgradeButton';
 import SelectSessionButton from './SelectSessionButton';
 import BeginCourseButton from './BeginCourseButton';
 import ResumeButton from './ResumeButton';
@@ -16,13 +15,11 @@ export const CourseCardActions = ({ cardId }) => {
   const {
     isVerified,
     hasStarted,
-    isExecEd2UCourse,
   } = reduxHooks.useCardEnrollmentData(cardId);
   const { isArchived } = reduxHooks.useCardCourseRunData(cardId);
 
   return (
     <ActionRow data-test-id="CourseCardActions">
-      {!(isEntitlement || isVerified || isExecEd2UCourse) && <UpgradeButton cardId={cardId} />}
       {isEntitlement && (isFulfilled
         ? <ViewCourseButton cardId={cardId} />
         : <SelectSessionButton cardId={cardId} />
