@@ -12,7 +12,6 @@ jest.mock('hooks', () => ({
   },
 }));
 
-jest.mock('./UpgradeButton', () => 'UpgradeButton');
 jest.mock('./SelectSessionButton', () => 'SelectSessionButton');
 jest.mock('./ViewCourseButton', () => 'ViewCourseButton');
 jest.mock('./BeginCourseButton', () => 'BeginCourseButton');
@@ -64,12 +63,6 @@ describe('CourseCardActions', () => {
   });
 
   describe('behavior', () => {
-    it('show upgrade button when not verified and not entitlement', () => {
-      const wrapper = createWrapper({
-        isEntitlement: false, isFulfilled: false, isArchived: false, isVerified: false, hasStarted: false,
-      });
-      expect(wrapper.find('UpgradeButton')).toHaveLength(1);
-    });
     it('show select session button when not verified and entitlement', () => {
       const wrapper = createWrapper({
         isEntitlement: true, isFulfilled: false, isArchived: false, isVerified: false, hasStarted: false,

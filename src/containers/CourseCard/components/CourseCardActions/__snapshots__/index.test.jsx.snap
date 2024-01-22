@@ -34,9 +34,6 @@ exports[`CourseCardActions snapshot show upgrade button when not verified and no
 <ActionRow
   data-test-id="CourseCardActions"
 >
-  <UpgradeButton
-    cardId="cardId"
-  />
   <BeginCourseButton
     cardId="cardId"
   />
