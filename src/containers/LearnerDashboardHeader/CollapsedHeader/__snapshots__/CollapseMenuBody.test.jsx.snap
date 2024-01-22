@@ -13,28 +13,6 @@ exports[`CollapseMenuBody render 1`] = `
   </Button>
   <Button
     as="a"
-    href="http://localhost:18000/dashboard/programs"
-    variant="inverse-primary"
-  >
-    Programs
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/courseSearchUrl"
-    onClick={[MockFunction findCoursesNavDropdownClicked("http://localhost:18000/courseSearchUrl")]}
-    variant="inverse-primary"
-  >
-    Discover New
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/support"
-    variant="inverse-primary"
-  >
-    Help
-  </Button>
-  <Button
-    as="a"
     href="url"
     variant="inverse-primary"
   >
@@ -76,28 +54,6 @@ exports[`CollapseMenuBody render unauthenticated 1`] = `
     variant="inverse-primary"
   >
     Courses
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/dashboard/programs"
-    variant="inverse-primary"
-  >
-    Programs
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/courseSearchUrl"
-    onClick={[MockFunction findCoursesNavDropdownClicked("http://localhost:18000/courseSearchUrl")]}
-    variant="inverse-primary"
-  >
-    Discover New
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/support"
-    variant="inverse-primary"
-  >
-    Help
   </Button>
 </div>
 `;

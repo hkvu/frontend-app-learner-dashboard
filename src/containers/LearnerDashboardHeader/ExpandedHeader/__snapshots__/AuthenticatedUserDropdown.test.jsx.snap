@@ -22,16 +22,6 @@ exports[`AuthenticatedUserDropdown snapshots with enterprise dashboard 1`] = `
   <Dropdown.Menu
     className="dropdown-menu-right"
   >
-    <Dropdown.Header>
-      SWITCH DASHBOARD
-    </Dropdown.Header>
-    <Dropdown.Item
-      as="a"
-      className="active"
-      href="/edx-dashboard"
-    >
-      Personal
-    </Dropdown.Item>
     <Dropdown.Item
       as="a"
       href="url"
@@ -87,17 +77,6 @@ exports[`AuthenticatedUserDropdown snapshots without enterprise dashboard and ex
   <Dropdown.Menu
     className="dropdown-menu-right"
   >
-    <Dropdown.Header>
-      SWITCH DASHBOARD
-    </Dropdown.Header>
-    <Dropdown.Item
-      as="a"
-      className="active"
-      href="/edx-dashboard"
-    >
-      Personal
-    </Dropdown.Item>
-    <Dropdown.Divider />
     <Dropdown.Item
       href="http://localhost:18000/career"
     >
