@@ -31,11 +31,5 @@ exports[`CourseCardBanners renders default CourseCardBanners 1`] = `
   <EntitlementBanner
     cardId="test-card-id"
   />
-  <CertificateBanner
-    cardId="test-card-id"
-  />
-  <CreditBanner
-    cardId="test-card-id"
-  />
 </div>
 `;
