@@ -5,8 +5,6 @@ import { reduxHooks } from 'hooks';
 import CourseCardBanners from '.';
 
 jest.mock('./CourseBanner', () => 'CourseBanner');
-jest.mock('./CertificateBanner', () => 'CertificateBanner');
-jest.mock('./CreditBanner', () => 'CreditBanner');
 jest.mock('./EntitlementBanner', () => 'EntitlementBanner');
 jest.mock('./RelatedProgramsBanner', () => 'RelatedProgramsBanner');
 
