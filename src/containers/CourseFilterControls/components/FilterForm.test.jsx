@@ -22,8 +22,6 @@ describe('FilterForm', () => {
       FilterKeys.inProgress,
       FilterKeys.notStarted,
       FilterKeys.done,
-      FilterKeys.notEnrolled,
-      FilterKeys.upgraded,
     ]);
   });
 });

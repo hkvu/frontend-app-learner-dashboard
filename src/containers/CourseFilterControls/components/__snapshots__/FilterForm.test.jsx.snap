@@ -28,14 +28,6 @@ exports[`FilterForm snapshot renders 1`] = `
       filterKey="done"
       key="done"
     />
-    <Checkbox
-      filterKey="notEnrolled"
-      key="notEnrolled"
-    />
-    <Checkbox
-      filterKey="upgraded"
-      key="upgraded"
-    />
   </Form.CheckboxSet>
 </Form.Group>
 `;
