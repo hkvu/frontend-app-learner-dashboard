@@ -12,7 +12,7 @@ export const BrandLogo = () => {
   const dashboard = reduxHooks.useEnterpriseDashboardData();
 
   return (
-    <a href={dashboard?.url || '/'} className="mx-auto">
+    <a href={'https://learn.hkmooc.hk/dashboard'} className="mx-auto">
       <img
         className="logo py-3"
         src={getConfig().LOGO_URL}

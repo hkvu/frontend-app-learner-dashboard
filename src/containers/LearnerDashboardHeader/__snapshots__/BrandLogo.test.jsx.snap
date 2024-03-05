@@ -3,7 +3,7 @@
 exports[`BrandLogo dashboard defined 1`] = `
 <a
   className="mx-auto"
-  href="url"
+  href="https://learn.hkmooc.hk/dashboard"
 >
   <img
     alt="edX, Inc. Dashboard"
@@ -16,7 +16,7 @@ exports[`BrandLogo dashboard defined 1`] = `
 exports[`BrandLogo dashboard undefined 1`] = `
 <a
   className="mx-auto"
-  href="/"
+  href="https://learn.hkmooc.hk/dashboard"
 >
   <img
     alt="edX, Inc. Dashboard"
