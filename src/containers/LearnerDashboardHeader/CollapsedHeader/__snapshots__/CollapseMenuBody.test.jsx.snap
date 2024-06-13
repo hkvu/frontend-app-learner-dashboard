@@ -55,33 +55,5 @@ exports[`CollapseMenuBody render unauthenticated 1`] = `
   >
     Courses
   </Button>
-<<<<<<< HEAD
-  <Button
-    as="a"
-    href="http://localhost:18000/dashboard/programs"
-    variant="inverse-primary"
-  >
-    Programs
-  </Button>
-  <Button
-    as="a"
-    href="http://localhost:18000/courseSearchUrl"
-    onClick={[MockFunction findCoursesNavDropdownClicked("http://localhost:18000/courseSearchUrl")]}
-    variant="inverse-primary"
-  >
-    Discover New
-  </Button>
-  <WidgetNavbar
-    placement="collapsedNavbar"
-  />
-  <Button
-    as="a"
-    href="http://localhost:18000/support"
-    variant="inverse-primary"
-  >
-    Help
-  </Button>
-=======
->>>>>>> 2c43073 (Clean up header's items)
 </div>
 `;
