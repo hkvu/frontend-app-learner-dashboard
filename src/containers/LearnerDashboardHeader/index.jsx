@@ -6,6 +6,7 @@ import ConfirmEmailBanner from './ConfirmEmailBanner';
 import CollapsedHeader from './CollapsedHeader';
 import ExpandedHeader from './ExpandedHeader';
 import { Alert } from '@edx/paragon';
+import { Info } from '@edx/paragon/icons';
 
 import './index.scss';
 
